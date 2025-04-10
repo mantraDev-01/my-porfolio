@@ -10,15 +10,33 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-[3rem] font-bold">Roj Justiniani Villacampa</h1>
           <p className="text-xl text-gray-600">Full-Stack Web Developer</p>
 
-          <div className={' flex justify-center items-center space-x-4'}>
-          <a className={'text-2xl'} href="https://www.facebook.com/roj.justiniani.90/"><FaFacebook /></a>
-          <a className={'text-2xl'} href="https://www.instagram.com/rojjj_dev/"><FaInstagram /></a>
-          <a className={'text-2xl'} href="https://discord.com/users/eye_tea."><FaDiscord /></a>
+          <div className={'flex flex-col'}>
 
+          <div className={' flex justify-center items-center space-x-4'}>
+            <a className={'text-2xl'} href="https://www.facebook.com/roj.justiniani.90/"><FaFacebook /></a>
+            <a className={'text-2xl'} href="https://www.instagram.com/rojjj_dev/"><FaInstagram /></a>
+            <a className={'text-2xl'} href="https://discord.com/users/eye_tea."><FaDiscord /></a>
+
+          
+          </div>
+
+          <div className={'flex items-center justify-center my-5'}>
+              <a
+            href="/my-CV-resume.pdf"
+            download
+            className="bg-gray-900 text-gray-400 font-semibold px-4 py-2 rounded-lg w-[50%] hover:bg-blue-900 transition  "
+          >
+          Download CV
+          </a>
+          </div>
+
+          
 
           </div>
-          
+
         </div>
+
+        
         <div className={'h-70 '}>
         <DotLottieReact
       src="/animation2.json"
