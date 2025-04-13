@@ -66,6 +66,16 @@ const Skills = () => {
           <h1 className="mt-4 font-semibold">MYSQL</h1>
         </div>
 
+        <div className="bg-white p-6 flex flex-col items-center sm:w-30 sm:h-38 w-25 h-33 shadow-md rounded-lg">
+          <img src="/Git.jpg" alt="Git" className="w-full h-24 object-cover rounded" />
+          <h1 className="mt-4 font-semibold">GIT</h1>
+        </div>
+
+        <div className="bg-white p-6 flex flex-col items-center sm:w-30 sm:h-38 w-25 h-33 shadow-md rounded-lg">
+          <img src="/github.jpg" alt="Github" className="w-full h-24 object-cover rounded" />
+          <h1 className="mt-4 font-semibold">GITHUB</h1>
+        </div>
+
         
       </div>
     </div>
