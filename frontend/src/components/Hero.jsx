@@ -5,7 +5,7 @@ import {FaFacebook, FaInstagram, FaDiscord} from 'react-icons/fa'
 const Hero = () => {
     return (
       <section id="home" className="min-h-130 flex mt-10 justify-center text-gray-800 py-30 px-3 sm:flex-row flex-col ">
-        <div className="text-center space-y-2 pl-10">
+        <div className="text-center space-y-2">
           <p className="text-lg sm:text-2xl font-NotoSerif tracking-wide">HELLO! I'M</p>
           <h1 className="text-4xl sm:text-[3rem] font-bold">Roj Justiniani Villacampa</h1>
           <p className="text-xl text-gray-600">Full-Stack Web Developer</p>

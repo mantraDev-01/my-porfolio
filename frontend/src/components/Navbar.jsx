@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div className={' h-20 flex items-center justify-center'}>
         
-      <ul className={'flex flex-row justify-center items-center bg-gray-800 px-5 py-2 space-x-5 rounded-xl font-semibold sm:text-sm text-[.5rem] fixed'}>
+      <ul className={'flex flex-row justify-center items-center bg-gray-800 px-5 py-2 space-x-5 rounded-xl font-semibold sm:text-sm text-[.5rem] fixed text-white'}>
         <Link to="home" smooth={true} duration={500} className={'cursor-pointer'}>Home</Link>
         <Link to="aboutMe" smooth={true} duration={500} className={'cursor-pointer'}>About Me</Link>
         <Link to="projects" smooth={true} duration={500} className={'cursor-pointer'}>Projects</Link>
