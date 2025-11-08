@@ -23,11 +23,11 @@ const ContactForm = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} id='contact' className="flex flex-col space-y-4 w-full max-w-md mx-auto p-6  rounded-lg shadow-md bg-radial-[at_25%_25%] from-gray-700 to-zinc-900 to-75% text-gray-300 mb-40">
+    <form ref={form} onSubmit={sendEmail} id='contact' className="flex flex-col space-y-4 w-[90%] max-w-md mx-auto p-6  rounded-lg shadow-md bg-radial-[at_25%_25%] from-white-700 to-zinc-900 to-75% text-gray-300 mb-40">
       <h2 className="text-xl font-semibold text-center">Contact Me</h2>
-      <input type="text" name="user_name" placeholder="Your Name" required className="p-2 border rounded" />
-      <input type="email" name="user_email" placeholder="Your Email" required className="p-2 border rounded" />
-      <textarea name="message" rows="5" placeholder="Your Message" required className="p-2 border rounded"></textarea>
+      <input type="text" name="user_name" placeholder="Your Name" required className="p-2 border rounded border-gray-600" />
+      <input type="email" name="user_email" placeholder="Your Email" required className="p-2 border rounded border-gray-600" />
+      <textarea name="message" rows="5" placeholder="Your Message" required className="p-2 border rounded border-gray-600"></textarea>
       <button type="submit" className="bg-black text-white py-2 rounded hover:bg-yellow-600 transition">Send</button>
     </form>
   );

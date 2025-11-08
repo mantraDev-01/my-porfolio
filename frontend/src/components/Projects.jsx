@@ -10,7 +10,7 @@ const Projects = () => {
 
         <div className={'flex flex-col lg:flex-row px-10 space-x-10 space-y-20'}>
 
-          <div className={'w-full bg-radial-[at_25%_25%] from-gray-700 to-zinc-900 to-75% text-gray-400 p-7 rounded-xl space-y-5'}>
+          <div className={'w-full bg-radial-[at_25%_25%] from-white-700 to-zinc-900 to-75% text-gray-400 p-7 rounded-xl space-y-5'}>
 
             <div className={'w-full'}>
                 <img src={'/expense-tracker.png'} className={'rounded-xl'} />
@@ -37,7 +37,7 @@ const Projects = () => {
 
           </div>
 
-          <div className={'w-full bg-radial-[at_25%_25%] from-gray-700 to-zinc-900 to-75% text-gray-400 p-7 rounded-xl'}>
+          <div className={'w-full bg-radial-[at_25%_25%] from-white-700 to-zinc-900 to-75% text-gray-400 p-7 rounded-xl'}>
 
             <div className={'w-full'}>
                 <img src={'/billiard-income-tracker.png'} className={'rounded-xl'} />
@@ -64,7 +64,7 @@ const Projects = () => {
 
           </div>
 
-          <div className={'w-full bg-radial-[at_25%_25%] from-gray-700 to-zinc-900 to-75% text-gray-400 p-7 rounded-xl'}>
+          <div className={'w-full bg-radial-[at_25%_25%] from-white-700 to-zinc-900 to-75% text-gray-400 p-7 rounded-xl'}>
 
             <div className={'w-full'}>
                 <img src={'/coffee-ordering-system.png'} className={'rounded-xl'} />

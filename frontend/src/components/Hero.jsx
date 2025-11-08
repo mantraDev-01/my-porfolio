@@ -4,7 +4,7 @@ import {FaFacebook, FaInstagram, FaDiscord} from 'react-icons/fa'
 
 const Hero = () => {
     return (
-      <section id="home" className="min-h-130 flex mt-10 justify-center text-gray-800 py-30 px-3 sm:flex-row flex-col ">
+      <section id="home" className="min-h-130 flex justify-center items-center text-gray-800 py-30 px-3 flex-col ">
         <div className="text-center space-y-2">
           <p className="text-lg sm:text-2xl font-NotoSerif tracking-wide">HELLO! I'M</p>
           <h1 className="text-4xl sm:text-[3rem] font-bold">Roj Justiniani Villacampa</h1>
@@ -37,7 +37,7 @@ const Hero = () => {
         </div>
 
         
-        <div className={'h-70 '}>
+        <div className={'sm:h-80 sm:w-80 h-80 md:h-100 md:w-100 lg:h-165 lg:w-165 '}>
         <DotLottieReact
       src="/animation2.json"
       loop
